@@ -1,0 +1,39 @@
+{
+  "name": "my-finances-frontend",
+  "version": "1.0.0",
+  "description": "My control over personal finances - FrontEnd",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run lint"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertluiz/my-financesjs-frontend.git"
+  },
+  "keywords": [
+    "js",
+    "react",
+    "webpack",
+    "finances"
+  ],
+  "author": "Robert Luiz <robert.likejs@gmail.com> (https://rmawebworks.com.br/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robertluiz/my-financesjs-frontend/issues"
+  },
+  "homepage": "https://github.com/robertluiz/my-financesjs-frontend#readme",
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.6.1",
+    "husky": "^0.15.0-rc.3"
+  }
+}
