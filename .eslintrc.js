@@ -8,6 +8,7 @@ module.exports = {
     },
     "env": {
         "browser": true,
+        es6: true
     },
     "plugins": [
         "react"
@@ -18,7 +19,10 @@ module.exports = {
             "devDependencies": true,
             "optionalDependencies": false,
             "peerDependencies": false
-        }]
+        }],
+        "react/prop-types": 0,
+        "jsx-a11y/anchor-has-content": 0,
+        "react/jsx-no-target-blank": 0
     },
     "settings": {
         "import/resolver": {
