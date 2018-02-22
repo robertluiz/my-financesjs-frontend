@@ -22,7 +22,9 @@ module.exports = {
         }],
         "react/prop-types": 0,
         "jsx-a11y/anchor-has-content": 0,
-        "react/jsx-no-target-blank": 0
+        "react/jsx-no-target-blank": 0,
+        "react/prefer-stateless-function": 0,
+        "class-methods-use-this": 0
     },
     "settings": {
         "import/resolver": {
