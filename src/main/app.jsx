@@ -11,12 +11,7 @@ const props = () => (
     <Header />
     <SideBar />
     <div className="content-wrapper">
-      <section className="content-header">
-        <h1>{props.label}</h1>
-      </section>
-      <section className="content">
-        <Routes />
-      </section>
+      <Routes />
     </div>
     <Footer />
   </div>
