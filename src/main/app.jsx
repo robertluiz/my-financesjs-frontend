@@ -4,13 +4,19 @@ import '../common/template/dependencies';
 import Header from '../common/template/header';
 import SideBar from '../common/template/sideBar';
 import Footer from '../common/template/footer';
+import Routes from './routes';
 
 const props = () => (
   <div className="wrapper">
     <Header />
     <SideBar />
     <div className="content-wrapper">
-      <h1>conteudo</h1>
+      <section className="content-header">
+        <h1>{props.label}</h1>
+      </section>
+      <section className="content">
+        <Routes />
+      </section>
     </div>
     <Footer />
   </div>
