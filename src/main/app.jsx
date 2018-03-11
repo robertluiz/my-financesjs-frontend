@@ -5,6 +5,7 @@ import Header from '../common/template/header';
 import SideBar from '../common/template/sideBar';
 import Footer from '../common/template/footer';
 import Routes from './routes';
+import Messages from '../common/msg/messages';
 
 const props = () => (
   <div className="wrapper">
@@ -14,6 +15,7 @@ const props = () => (
       <Routes />
     </div>
     <Footer />
+    <Messages />
   </div>
 
 );
